@@ -1,0 +1,19 @@
+#
+muonSch swBpMSb symbol
+I27<1:6> 6
+I28<1:6> 6
+#ISCELL
+basic ipin symbol
+PIN8
+PIN9
+PIN7
+PIN3
+PIN2
+PIN1
+PIN0
+PIN6
+PIN11
+#ISCELL
+basic opin symbol
+PIN12
+PIN10

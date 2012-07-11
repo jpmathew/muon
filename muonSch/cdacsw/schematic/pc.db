@@ -1,0 +1,29 @@
+#
+muonSch swNwLsb symbol
+I2
+#
+muonSch swNwMsb symbol
+I1
+#
+muonSch cdac symbol
+I0
+#ISCELL
+basic ipin symbol
+PIN10
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN11
+#ISCELL
+basic noConn symbol
+I5
+I6
+I4<1:2> 2

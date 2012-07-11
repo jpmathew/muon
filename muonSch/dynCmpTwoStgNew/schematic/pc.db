@@ -1,0 +1,32 @@
+#
+tsmcN45 nch symbol
+M2
+M1
+M0
+minp
+minm
+mtail
+#
+tsmcN45 pch symbol
+M4
+M3
+M13
+M12
+#
+analogLib cap symbol
+C9
+C8
+C7
+C6
+#ISCELL
+basic ipin symbol
+PIN6
+PIN7
+PIN8
+PIN9
+PIN5
+PIN4
+PIN3
+PIN10
+PIN2
+PIN13

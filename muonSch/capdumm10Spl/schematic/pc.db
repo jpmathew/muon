@@ -1,0 +1,15 @@
+#
+muonSch capUnit10fDummySpl symbol
+I0
+#
+muonSch capUnit10fDummy symbol
+dummy<1:9> 9
+#ISCELL
+basic ipin symbol
+PIN4
+PIN3
+PIN1
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN6

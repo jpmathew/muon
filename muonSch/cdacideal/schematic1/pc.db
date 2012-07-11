@@ -1,0 +1,36 @@
+#
+analogLib vpulse symbol
+V9
+#
+analogLib vdc symbol
+V15
+V13
+V11
+V12
+V8
+V4
+V0
+V1
+V2
+V3
+V7
+V6
+V5
+V14
+#
+muonSch swCmRefLsb symbol
+I4<1:2> 2
+I2<1:8> 8
+I5<1:2> 2
+I1<1:16> 16
+I3<1:4> 4
+I0<1:32> 32
+#
+analogLib cap symbol
+C6<1>
+C5<1>
+C4<1:2> 2
+C3<1:4> 4
+C2<1:8> 8
+C1<1:16> 16
+C0<1:32> 32

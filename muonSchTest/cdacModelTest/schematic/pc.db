@@ -1,0 +1,17 @@
+#
+analogLib vpulse symbol
+V9
+V7
+V6
+#
+analogLib vdc symbol
+V8
+V5<1:11> 11
+V4<1:10> 10
+V3
+V2
+V1
+V0
+#
+beta cdacsw symbol
+I0

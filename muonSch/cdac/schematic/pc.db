@@ -1,0 +1,41 @@
+#
+muonSch capUnit10fDummy symbol
+I38<1:6> 6
+#
+muonSch capdumm17 symbol
+I17<1:2> 2
+#
+muonSch capdumm10 symbol
+I10<1>
+#
+muonSch capdumm10Spl symbol
+I10<2>
+#
+muonSch capUnit10fCCC symbol
+I6
+#
+muonSch capUnit10fCC symbol
+ICC
+#
+muonSch cdacLSB symbol
+I1
+#
+muonSch cdacMSB symbol
+I0
+#ISCELL
+basic ipin symbol
+PIN14
+PIN15
+PIN6
+PIN5
+PIN7
+PIN8
+PIN16
+#ISCELL
+basic iopin symbolr
+PIN11
+PIN12
+PIN10
+#ISCELL
+basic noConn symbol
+I5<1:6> 6

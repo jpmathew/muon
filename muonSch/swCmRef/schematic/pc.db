@@ -1,0 +1,19 @@
+#
+tsmcN45 nch symbol
+M2
+M1
+#
+tsmcN45 pch symbol
+M0
+#ISCELL
+basic iopin symbolr
+PIN0
+#ISCELL
+basic ipin symbol
+PIN8
+PIN3
+PIN2
+PIN9
+PIN4
+PIN6
+PIN7

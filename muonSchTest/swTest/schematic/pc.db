@@ -1,0 +1,27 @@
+#
+analogLib res symbol
+R0
+R1
+#
+analogLib vdc symbol
+V3
+V1
+#
+analogLib vpulse symbol
+V2
+#
+tsmcN45 pch symbol
+M7
+M4
+#
+tsmcN45 nch symbol
+M8
+M5
+#
+analogLib cap symbol
+C2
+C11
+C5
+C6
+C8
+C0

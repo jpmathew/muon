@@ -1,0 +1,8 @@
+#
+muonSch capUnit10fDummy symbol
+dummy<1:10> 10
+#ISCELL
+basic ipin symbol
+PIN3
+PIN13
+PIN1

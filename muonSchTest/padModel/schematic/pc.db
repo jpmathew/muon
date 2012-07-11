@@ -1,0 +1,11 @@
+#
+analogLib cap symbol
+C1
+C0
+#
+analogLib ind symbol
+L0
+#ISCELL
+basic iopin symbolr
+PIN2
+PIN3

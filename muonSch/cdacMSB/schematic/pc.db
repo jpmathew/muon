@@ -1,0 +1,30 @@
+#
+tsmcN45 rm2w symbol
+R0
+#
+tsmcN45 rm9w symbol
+R1
+#
+muonSch capUnit10f symbol
+I36
+I37<1:4> 4
+I39<1:8> 8
+I34
+I41
+I40<1:2> 2
+I4<1:2> 2
+I6
+I38<1:16> 16
+I3<1:4> 4
+I2<1:8> 8
+I1<1:16> 16
+#ISCELL
+basic iopin symbolr
+PIN1
+#ISCELL
+basic ipin symbol
+PIN13
+PIN15
+PIN7
+PIN11
+PIN8

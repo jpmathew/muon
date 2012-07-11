@@ -1,0 +1,541 @@
+analysis(pss fields order) "1"
+analysis(pss fields selFreqTo) "1e12"
+analysis(pss fields selFreqFrom) "0"
+analysis(pss fields harmsvec) nil
+analysis(pss fields Aindices) nil
+analysis(pss fields indices) nil
+analysis(pss fields harms) "10"
+analysis(pss fields harmonics) "Number of harmonics"
+analysis(pss fields period) "500p"
+analysis(pss fields autoCalc) t
+analysis(pss fields fund) "2G"
+analysis(pss fields freqPeriod) "Beat Frequency"
+analysis(pss fields srcId) "V5"
+analysis(pss fields maxHarms) ""
+analysis(pss fields signalLevel) "Large"
+analysis(pss fields freqVal) "1.99999999999999976158142089844G"
+analysis(pss fields freqName) "1/(per-0)"
+analysis(pss fields stimName) ""
+analysis(pss fields fundListBox) (nil choices ("1           1/(per-0)  2G        Large         V5" "2           1/(per-0)  2G        Large           ") value ("1           1/(per-0)  2G        Large         V5"))
+analysis(pss fields paramListBox) (nil choices ("#  Name     Expr       Value     Signal     SrcId ") value nil)
+analysis(pss fields oversamplefactor) ""
+analysis(pss fields FBFund) ""
+analysis(pss fields FBFundCalc) nil
+analysis(pss fields FBListBox) (nil choices (" ") value nil)
+analysis(pss fields FBHeadListBox) (nil choices ("Name         Expr         Value        SrcId ") value nil)
+analysis(pss fields flexbalance) "no"
+analysis(pss fields engine) "Shooting"
+analysis(pss fields enable) (t)
+analysis(pss fields harmsAndFreqsTitle) (nil choices ("Index Frequency") value nil)
+analysis(pss fields harmsAndFreqsTitle2) (nil choices ("Index Frequency") value nil)
+analysis(pss fields harmsAndFreqs) (nil choices nil value nil)
+analysis(pss fields arrayCoeffs) (nil choices nil value nil)
+analysis(pss fields harmCoeffs) nil
+analysis(pss fields harmListMem) nil
+analysis(pss fields sigpartB) nil
+analysis(pss fields HBPartListPssTitle) (nil choices ("           Instances          Harms      Funds") value nil)
+analysis(pss fields HBPartListQpssTitle) (nil choices ("           Instances          Harms      FundNames") value nil)
+analysis(pss fields HBPartListBox) (nil choices nil value nil)
+analysis(pss fields partInsts) nil
+analysis(pss fields partHarms) ""
+analysis(pss fields partFunds) ""
+analysis(pss fields hbpartition_defs) nil
+analysis(pss fields hbpartition_harms) nil
+analysis(pss fields hbpartition_funds) nil
+analysis(pss fields hbpartition_fundnames) nil
+analysis(pss fields errpreset) "conservative"
+analysis(pss fields tstab) ""
+analysis(pss fields saveinit) ""
+analysis(pss fields tstabHB) ""
+analysis(pss fields saveinitHB) ""
+analysis(pss fields hbhomotopy) "default"
+analysis(pss fields gstart) ""
+analysis(pss fields gstop) ""
+analysis(pss fields glog) ""
+analysis(pss fields oscana) nil
+analysis(pss fields p) ""
+analysis(pss fields n) ""
+analysis(pss fields oscicUI) ""
+analysis(pss fields oscicUI2) ""
+analysis(pss fields oscic) ""
+analysis(pss fields oscmethod) ""
+analysis(pss fields semiauto_freq) ""
+analysis(pss fields pinnoderank) ""
+analysis(pss fields pinnodemag) ""
+analysis(pss fields pinnode) ""
+analysis(pss fields pinnodeminus) ""
+analysis(pss fields sweepLevel) "1"
+analysis(pss fields sweepOrderLabel) ""
+analysis(pss fields sweepB) nil
+analysis(pss fields sweep) "Variable"
+analysis(pss fields freqVar) "no"
+analysis(pss fields designVar) ""
+analysis(pss fields dev) ""
+analysis(pss fields deviceParam) ""
+analysis(pss fields mod) ""
+analysis(pss fields modelParam) ""
+analysis(pss fields param) ""
+analysis(pss fields rangeType) "Start-Stop"
+analysis(pss fields sweepChange) nil
+analysis(pss fields start) ""
+analysis(pss fields stop) ""
+analysis(pss fields center) ""
+analysis(pss fields span) ""
+analysis(pss fields incrType) "Linear"
+analysis(pss fields stepTypeLin) "Step Size"
+analysis(pss fields stepTypeLog) "Points Per Decade"
+analysis(pss fields sweepStep) ""
+analysis(pss fields lin) ""
+analysis(pss fields dec) ""
+analysis(pss fields log) ""
+analysis(pss fields useDiscrete) nil
+analysis(pss fields values) nil
+analysis(pss fields restart) ""
+analysis(pss fields sweepB2) nil
+analysis(pss fields sweep2) "Variable"
+analysis(pss fields freqVar2) "no"
+analysis(pss fields designVar2) ""
+analysis(pss fields dev2) ""
+analysis(pss fields deviceParam2) ""
+analysis(pss fields mod2) ""
+analysis(pss fields modelParam2) ""
+analysis(pss fields param2) ""
+analysis(pss fields rangeType2) "Start-Stop"
+analysis(pss fields sweepChange2) nil
+analysis(pss fields start2) ""
+analysis(pss fields stop2) ""
+analysis(pss fields center2) ""
+analysis(pss fields span2) ""
+analysis(pss fields incrType2) "Linear"
+analysis(pss fields stepTypeLin2) "Step Size"
+analysis(pss fields stepTypeLog2) "Points Per Decade"
+analysis(pss fields step2) ""
+analysis(pss fields lin2) ""
+analysis(pss fields dec2) ""
+analysis(pss fields log2) ""
+analysis(pss fields useDiscrete2) nil
+analysis(pss fields values2) nil
+analysis(pss fields sweepB3) nil
+analysis(pss fields sweep3) "Variable"
+analysis(pss fields freqVar3) "no"
+analysis(pss fields designVar3) ""
+analysis(pss fields dev3) ""
+analysis(pss fields deviceParam3) ""
+analysis(pss fields mod3) ""
+analysis(pss fields modelParam3) ""
+analysis(pss fields param3) ""
+analysis(pss fields rangeType3) "Start-Stop"
+analysis(pss fields sweepChange3) nil
+analysis(pss fields start3) ""
+analysis(pss fields stop3) ""
+analysis(pss fields center3) ""
+analysis(pss fields span3) ""
+analysis(pss fields incrType3) "Linear"
+analysis(pss fields stepTypeLin3) "Step Size"
+analysis(pss fields stepTypeLog3) "Points Per Decade"
+analysis(pss fields step3) ""
+analysis(pss fields lin3) ""
+analysis(pss fields dec3) ""
+analysis(pss fields log3) ""
+analysis(pss fields useDiscrete3) nil
+analysis(pss fields values3) nil
+analysis(pss fields lsspWizardInfo) ""
+analysis(pss fields lsspWizardState) "Disable"
+analysis(pss options step) ""
+analysis(pss options maxstep) ""
+analysis(pss options ic) ""
+analysis(pss options skipdc) ""
+analysis(pss options readic) ""
+analysis(pss options readns) ""
+analysis(pss options cmin) ""
+analysis(pss options hbhighq) "yes"
+analysis(pss options write) ""
+analysis(pss options writefinal) ""
+analysis(pss options swapfile) ""
+analysis(pss options writepss) ""
+analysis(pss options readpss) ""
+analysis(pss options checkpss) ""
+analysis(pss options saveclock) ""
+analysis(pss options saveperiod) ""
+analysis(pss options savetime) nil
+analysis(pss options savefile) ""
+analysis(pss options recover) ""
+analysis(pss options method) ""
+analysis(pss options tstabmethod) ""
+analysis(pss options relref) ""
+analysis(pss options lteratio) ""
+analysis(pss options steadyratio) ""
+analysis(pss options itres) ""
+analysis(pss options lnsolver) ""
+analysis(pss options resgmrescycle) ""
+analysis(pss options inexactNewton) ""
+analysis(pss options maxacfreq) ""
+analysis(pss options maxperiods) ""
+analysis(pss options finitediff) ""
+analysis(pss options highorder) ""
+analysis(pss options psaratio) ""
+analysis(pss options maxorder) ""
+analysis(pss options fullpssvec) ""
+analysis(pss options fdharms) ""
+analysis(pss options stats) ""
+analysis(pss options annotate) "status"
+analysis(pss options save) ""
+analysis(pss options nestlvl) ""
+analysis(pss options oppoint) ""
+analysis(pss options skipstart) ""
+analysis(pss options skipstop) ""
+analysis(pss options skipcount) ""
+analysis(pss options strobeperiod) ""
+analysis(pss options strobedelay) ""
+analysis(pss options compression) ""
+analysis(pss options outputtype) ""
+analysis(pss options ppv) ""
+analysis(pss options maxiters) ""
+analysis(pss options backtracking) ""
+analysis(pss options tstart) ""
+analysis(pss options tstabenvlp) ""
+analysis(pss options envlpname) "envlp"
+analysis(pss options additionalParams) ""
+analysis(pnoise options additionalParams) ""
+analysis(pnoise options ppv) ""
+analysis(pnoise options lorentzian) "no"
+analysis(pnoise options cyclo2txtfile) ""
+analysis(pnoise options saveallsidebands) ""
+analysis(pnoise options nestlvl) ""
+analysis(pnoise options save) ""
+analysis(pnoise options annotate) "status"
+analysis(pnoise options stats) ""
+analysis(pnoise options augmented) ""
+analysis(pnoise options oscsolver) ""
+analysis(pnoise options resgmrescycle) ""
+analysis(pnoise options lnsolver) ""
+analysis(pnoise options solver) ""
+analysis(pnoise options gear_order) ""
+analysis(pnoise options tolerance) ""
+analysis(pnoise fields refsbListbox6) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle6) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder6) "1"
+analysis(pnoise fields refsbFreqTo6) "1e12"
+analysis(pnoise fields refsbFreqFrom6) "0"
+analysis(pnoise fields refsideband6) ""
+analysis(pnoise fields refSidebandHint6) ""
+analysis(pnoise fields refsbSelect6) "Enter in field"
+analysis(pnoise fields inPort6) ""
+analysis(pnoise fields iprobe6) ""
+analysis(pnoise fields inIsrc6) ""
+analysis(pnoise fields inVsrc6) ""
+analysis(pnoise fields inType6) "port"
+analysis(pnoise fields oprobe6) ""
+analysis(pnoise fields n6) ""
+analysis(pnoise fields p6) ""
+analysis(pnoise fields outType6) "probe"
+analysis(pnoise fields values6) nil
+analysis(pnoise fields useDiscrete6) nil
+analysis(pnoise fields log6) ""
+analysis(pnoise fields dec6) ""
+analysis(pnoise fields lin6) ""
+analysis(pnoise fields step6) ""
+analysis(pnoise fields stepTypeLog6) "Points Per Decade"
+analysis(pnoise fields stepTypeLin6) "Step Size"
+analysis(pnoise fields incrType6) "Automatic"
+analysis(pnoise fields span6) ""
+analysis(pnoise fields center6) ""
+analysis(pnoise fields stop6) ""
+analysis(pnoise fields start6) ""
+analysis(pnoise fields sweepChange6) nil
+analysis(pnoise fields rangeType6) "Start-Stop"
+analysis(pnoise fields relharmnum6) ""
+analysis(pnoise fields sweeptype6) "default"
+analysis(pnoise fields refsbListbox5) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle5) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder5) "1"
+analysis(pnoise fields refsbFreqTo5) "1e12"
+analysis(pnoise fields refsbFreqFrom5) "0"
+analysis(pnoise fields refsideband5) ""
+analysis(pnoise fields refSidebandHint5) ""
+analysis(pnoise fields refsbSelect5) "Enter in field"
+analysis(pnoise fields inPort5) ""
+analysis(pnoise fields iprobe5) ""
+analysis(pnoise fields inIsrc5) ""
+analysis(pnoise fields inVsrc5) ""
+analysis(pnoise fields inType5) "port"
+analysis(pnoise fields oprobe5) ""
+analysis(pnoise fields n5) ""
+analysis(pnoise fields p5) ""
+analysis(pnoise fields outType5) "probe"
+analysis(pnoise fields values5) nil
+analysis(pnoise fields useDiscrete5) nil
+analysis(pnoise fields log5) ""
+analysis(pnoise fields dec5) ""
+analysis(pnoise fields lin5) ""
+analysis(pnoise fields step5) ""
+analysis(pnoise fields stepTypeLog5) "Points Per Decade"
+analysis(pnoise fields stepTypeLin5) "Step Size"
+analysis(pnoise fields incrType5) "Automatic"
+analysis(pnoise fields span5) ""
+analysis(pnoise fields center5) ""
+analysis(pnoise fields stop5) ""
+analysis(pnoise fields start5) ""
+analysis(pnoise fields sweepChange5) nil
+analysis(pnoise fields rangeType5) "Start-Stop"
+analysis(pnoise fields relharmnum5) ""
+analysis(pnoise fields sweeptype5) "default"
+analysis(pnoise fields refsbListbox4) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle4) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder4) "1"
+analysis(pnoise fields refsbFreqTo4) "1e12"
+analysis(pnoise fields refsbFreqFrom4) "0"
+analysis(pnoise fields refsideband4) ""
+analysis(pnoise fields refSidebandHint4) ""
+analysis(pnoise fields refsbSelect4) "Enter in field"
+analysis(pnoise fields inPort4) ""
+analysis(pnoise fields iprobe4) ""
+analysis(pnoise fields inIsrc4) ""
+analysis(pnoise fields inVsrc4) ""
+analysis(pnoise fields inType4) "port"
+analysis(pnoise fields oprobe4) ""
+analysis(pnoise fields n4) ""
+analysis(pnoise fields p4) ""
+analysis(pnoise fields outType4) "probe"
+analysis(pnoise fields values4) nil
+analysis(pnoise fields useDiscrete4) nil
+analysis(pnoise fields log4) ""
+analysis(pnoise fields dec4) ""
+analysis(pnoise fields lin4) ""
+analysis(pnoise fields step4) ""
+analysis(pnoise fields stepTypeLog4) "Points Per Decade"
+analysis(pnoise fields stepTypeLin4) "Step Size"
+analysis(pnoise fields incrType4) "Automatic"
+analysis(pnoise fields span4) ""
+analysis(pnoise fields center4) ""
+analysis(pnoise fields stop4) ""
+analysis(pnoise fields start4) ""
+analysis(pnoise fields sweepChange4) nil
+analysis(pnoise fields rangeType4) "Start-Stop"
+analysis(pnoise fields relharmnum4) ""
+analysis(pnoise fields sweeptype4) "default"
+analysis(pnoise fields refsbListbox3) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle3) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder3) "1"
+analysis(pnoise fields refsbFreqTo3) "1e12"
+analysis(pnoise fields refsbFreqFrom3) "0"
+analysis(pnoise fields refsideband3) ""
+analysis(pnoise fields refSidebandHint3) ""
+analysis(pnoise fields refsbSelect3) "Enter in field"
+analysis(pnoise fields inPort3) ""
+analysis(pnoise fields iprobe3) ""
+analysis(pnoise fields inIsrc3) ""
+analysis(pnoise fields inVsrc3) ""
+analysis(pnoise fields inType3) "port"
+analysis(pnoise fields oprobe3) ""
+analysis(pnoise fields n3) ""
+analysis(pnoise fields p3) ""
+analysis(pnoise fields outType3) "probe"
+analysis(pnoise fields values3) nil
+analysis(pnoise fields useDiscrete3) nil
+analysis(pnoise fields log3) ""
+analysis(pnoise fields dec3) ""
+analysis(pnoise fields lin3) ""
+analysis(pnoise fields step3) ""
+analysis(pnoise fields stepTypeLog3) "Points Per Decade"
+analysis(pnoise fields stepTypeLin3) "Step Size"
+analysis(pnoise fields incrType3) "Automatic"
+analysis(pnoise fields span3) ""
+analysis(pnoise fields center3) ""
+analysis(pnoise fields stop3) ""
+analysis(pnoise fields start3) ""
+analysis(pnoise fields sweepChange3) nil
+analysis(pnoise fields rangeType3) "Start-Stop"
+analysis(pnoise fields relharmnum3) ""
+analysis(pnoise fields sweeptype3) "default"
+analysis(pnoise fields refsbListbox2) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle2) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder2) "1"
+analysis(pnoise fields refsbFreqTo2) "1e12"
+analysis(pnoise fields refsbFreqFrom2) "0"
+analysis(pnoise fields enable) (t)
+analysis(pnoise fields fund) "2G"
+analysis(pnoise fields period) "500p"
+analysis(pnoise fields MultiEna) nil
+analysis(pnoise fields MultiHeadList) (nil choices ("Name       Input    Output       Relharm      Enable") value nil)
+analysis(pnoise fields MultiList) (nil choices (" ") value nil)
+analysis(pnoise fields MultiEna1) t
+analysis(pnoise fields MultiEna2) nil
+analysis(pnoise fields MultiEna3) nil
+analysis(pnoise fields MultiEna4) nil
+analysis(pnoise fields MultiEna5) nil
+analysis(pnoise fields MultiEna6) nil
+analysis(pnoise fields sweeptype) "default"
+analysis(pnoise fields relharmnum) ""
+analysis(pnoise fields rangeType) "Start-Stop"
+analysis(pnoise fields sweepChange) nil
+analysis(pnoise fields start) "100"
+analysis(pnoise fields stop) "100G"
+analysis(pnoise fields center) ""
+analysis(pnoise fields span) ""
+analysis(pnoise fields incrType) "Automatic"
+analysis(pnoise fields stepTypeLin) "Step Size"
+analysis(pnoise fields stepTypeLog) "Points Per Decade"
+analysis(pnoise fields step) ""
+analysis(pnoise fields lin) ""
+analysis(pnoise fields dec) ""
+analysis(pnoise fields log) ""
+analysis(pnoise fields useDiscrete) nil
+analysis(pnoise fields values) nil
+analysis(pnoise fields harmonics) "Maximum sideband"
+analysis(pnoise fields maxsideband) ""
+analysis(pnoise fields indices) nil
+analysis(pnoise fields Aindices) nil
+analysis(pnoise fields sidebands) nil
+analysis(pnoise fields side) "upper"
+analysis(pnoise fields selFreqFrom) "0"
+analysis(pnoise fields selFreqTo) "1e12"
+analysis(pnoise fields order) "1"
+analysis(pnoise fields harmsAndFreqsTitle) (nil choices ("index   frequency") value nil)
+analysis(pnoise fields harmsAndFreqsTitle2) (nil choices ("index   frequency") value nil)
+analysis(pnoise fields harmsAndFreqs) (nil choices nil value nil)
+analysis(pnoise fields arrayCoeffs) (nil choices nil value nil)
+analysis(pnoise fields harmCoeffs) nil
+analysis(pnoise fields harmListMem) nil
+analysis(pnoise fields outType) "voltage"
+analysis(pnoise fields p) "/I0/latchP"
+analysis(pnoise fields n) "/I0/latchM"
+analysis(pnoise fields oprobe) ""
+analysis(pnoise fields inType) "voltage"
+analysis(pnoise fields inVsrc) "/V0"
+analysis(pnoise fields inIsrc) ""
+analysis(pnoise fields iprobe) "/V0"
+analysis(pnoise fields inPort) ""
+analysis(pnoise fields refsbSelect) "Enter in field"
+analysis(pnoise fields refSidebandHint) ""
+analysis(pnoise fields refsideband) "0"
+analysis(pnoise fields refsbFreqFrom) "0"
+analysis(pnoise fields refsbFreqTo) "1e12"
+analysis(pnoise fields refsbOrder) "1"
+analysis(pnoise fields refsbTitle) (nil choices ("side       Frequencies        1G") value nil)
+analysis(pnoise fields refsbListbox) (nil choices ("In order for this listBox to fill out properly," "the following fields need to have valid values:" " PSS: Fundamental Tones" " PSS: Beat Frequency" " From (Hz), To (Hz)") value nil)
+analysis(pnoise fields noisetype) "timedomain"
+analysis(pnoise fields noisetypeUI) "timedomain"
+analysis(pnoise fields determsourcesfreqs) nil
+analysis(pnoise fields deterministicsources) nil
+analysis(pnoise fields deterministicsourcesUI) nil
+analysis(pnoise fields extcorrsources2) nil
+analysis(pnoise fields extcorrsources2UI) nil
+analysis(pnoise fields extcorrsources1) nil
+analysis(pnoise fields extcorrsources1UI) nil
+analysis(pnoise fields externalsources) nil
+analysis(pnoise fields externalsourcesUI) nil
+analysis(pnoise fields externSourcesBool) nil
+analysis(pnoise fields crossingdirection) "all"
+analysis(pnoise fields thresholdvalue) ""
+analysis(pnoise fields outputSignal) ""
+analysis(pnoise fields labelForPmAuto) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForDriven) "PM jitter for driven circuit"
+analysis(pnoise fields jitterTypeUI) "FM"
+analysis(pnoise fields maxcycles) ""
+analysis(pnoise fields useDiscreteCorr) nil
+analysis(pnoise fields cycles) nil
+analysis(pnoise fields tdnoise) "Number of Points"
+analysis(pnoise fields noiseskipcount) ""
+analysis(pnoise fields numberofpoints) "2"
+analysis(pnoise fields useDiscreteNoise) t
+analysis(pnoise fields noisetimepoints) ("30p" "60p" "90p" "120p" "150p")
+analysis(pnoise fields separatenoise) ""
+analysis(pnoise fields sweeptype2) "default"
+analysis(pnoise fields relharmnum2) ""
+analysis(pnoise fields rangeType2) "Start-Stop"
+analysis(pnoise fields sweepChange2) nil
+analysis(pnoise fields start2) ""
+analysis(pnoise fields stop2) ""
+analysis(pnoise fields center2) ""
+analysis(pnoise fields span2) ""
+analysis(pnoise fields incrType2) "Automatic"
+analysis(pnoise fields stepTypeLin2) "Step Size"
+analysis(pnoise fields stepTypeLog2) "Points Per Decade"
+analysis(pnoise fields step2) ""
+analysis(pnoise fields lin2) ""
+analysis(pnoise fields dec2) ""
+analysis(pnoise fields log2) ""
+analysis(pnoise fields useDiscrete2) nil
+analysis(pnoise fields values2) nil
+analysis(pnoise fields outType2) "probe"
+analysis(pnoise fields p2) ""
+analysis(pnoise fields n2) ""
+analysis(pnoise fields oprobe2) ""
+analysis(pnoise fields inType2) "port"
+analysis(pnoise fields inVsrc2) ""
+analysis(pnoise fields inIsrc2) ""
+analysis(pnoise fields iprobe2) ""
+analysis(pnoise fields inPort2) ""
+analysis(pnoise fields refsbSelect2) "Enter in field"
+analysis(pnoise fields refSidebandHint2) ""
+analysis(pnoise fields refsideband2) ""
+analysis(tran options additionalParams) ""
+analysis(tran options sort) "name"
+analysis(tran options detail) "node"
+analysis(tran options threshold) "0.0"
+analysis(tran options timed) nil
+analysis(tran options captab) t
+analysis(tran options restart) ""
+analysis(tran options maxiters) "5"
+analysis(tran options acnames) nil
+analysis(tran options actimes) nil
+analysis(tran options flushofftime) ""
+analysis(tran options flushtime) ""
+analysis(tran options flushpoints) ""
+analysis(tran options infotimes) ("300p")
+analysis(tran options finalTimeOp) t
+analysis(tran options compression) ""
+analysis(tran options strobedelay) ""
+analysis(tran options strobeperiod) ""
+analysis(tran options skipcount) ""
+analysis(tran options skipstop) ""
+analysis(tran options skipstart) ""
+analysis(tran options oppoint) ""
+analysis(tran options nestlvl) ""
+analysis(tran options save) ""
+analysis(tran options annotate) "status"
+analysis(tran options stats) ""
+analysis(tran options lteratio) ""
+analysis(tran options relref) ""
+analysis(tran options method) ""
+analysis(tran options recover) ""
+analysis(tran options savefile) ""
+analysis(tran options savetime) nil
+analysis(tran options saveperiod) ""
+analysis(tran options saveclock) ""
+analysis(tran options writefinal) "spectre.fc"
+analysis(tran options write) "spectre.ic"
+analysis(tran options cmin) ""
+analysis(tran options readns) ""
+analysis(tran options readic) ""
+analysis(tran options skipdc) ""
+analysis(tran options ic) ""
+analysis(tran options maxstep) ""
+analysis(tran options step) ""
+analysis(tran options outputstart) ""
+analysis(tran fields enable) (t)
+analysis(tran fields stop) "2n"
+analysis(tran fields errpreset) "conservative"
+analysis(tran fields tranNoise) ""
+analysis(tran fields noisefmax) ""
+analysis(tran fields noisefmin) ""
+analysis(tran fields noiseseed) "1"
+analysis(tran fields noisescale) ""
+analysis(tran fields noisetmin) ""
+analysis(tran fields noiseupdate) ""
+analysis(tran fields tranNoiseMultiRuns) ""
+analysis(tran fields noiseruns) "100"
+analysis(tran fields noiseonoff) ""
+analysis(tran fields noiseinst) ""
+analysis(tran fields dynParam) ""
+analysis(tran fields param) ""
+analysis(tran fields dynchoice) "Parameter file"
+analysis(tran fields param_file) ""
+analysis(tran fields dynHeadListBox) (nil choices ("#         time                     value") value nil)
+analysis(tran fields dynParamListBox) (nil choices nil value nil)
+analysis(tran fields paramTime) ""
+analysis(tran fields paramValue) ""
+analysis(tran fields param_vec) nil
+analysis(tran options start) ""
